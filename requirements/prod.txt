@@ -1340,7 +1340,7 @@ qrcode==7.4.1 \
     --hash=sha256:26185f4c48ea8a896d5c9a0b080c41b75448e30b533b418ea0c65d91d10f0901 \
     --hash=sha256:ba7520e031f28dadcd92049a88832a585111d09342bd0d15ddae5ccf5af98c12
     # via django-two-factor-auth
-redis==4.4.2 \
+redis==4.4.4 \
     --hash=sha256:a010f6cb7378065040a02839c3f75c7e0fb37a87116fb4a95be82a95552776c7 \
     --hash=sha256:e6206448e2f8a432871d07d432c13ed6c2abcf6b74edb436c99752b1371be387
     # via -r requirements/common.in
