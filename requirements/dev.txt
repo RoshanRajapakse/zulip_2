@@ -2695,3 +2695,4 @@ setuptools==67.1.0 \
     #   scrapy
     #   sphinxcontrib-jquery
     #   zope.interface
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
