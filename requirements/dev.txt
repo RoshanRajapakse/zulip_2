@@ -1282,7 +1282,7 @@ openapi-spec-validator==0.5.4 \
     --hash=sha256:68654e81cc56c71392dba31bf55d11e1c03c99458bebcb0018959a7134e104da \
     --hash=sha256:96be4258fdccc89d3da094738e19d56b94956914b93a22de795b9dd220cb4c7c
     # via openapi-core
-orjson==3.8.5 \
+orjson==3.9.15 \
     --hash=sha256:09f40add3c2d208e20f8bf185df38f992bf5092202d2d30eced8f6959963f1d5 \
     --hash=sha256:0b57bf72902d818506906e49c677a791f90dbd7f0997d60b14bc6c1ce4ce4cf9 \
     --hash=sha256:0e28330cc6d51741cad0edd1b57caf6c5531aff30afe41402acde0a03246b8ed \
