@@ -13,7 +13,7 @@
     "@babel/register": "^7.6.2",
     "@formatjs/intl": "^2.0.0",
     "@giphy/js-components": "^5.0.5",
-    "@giphy/js-fetch-api": "^4.0.1",
+    "@giphy/js-fetch-api": "^4.9.1",
     "@uppy/core": "^3.0.2",
     "@uppy/progress-bar": "^3.0.1",
     "@uppy/xhr-upload": "^3.0.2",
