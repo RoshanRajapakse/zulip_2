@@ -1326,7 +1326,7 @@
     preact "10.4.8"
     throttle-debounce "^3.0.1"
 
-"@giphy/js-fetch-api@^4.0.1", "@giphy/js-fetch-api@^4.7.1":
+"@giphy/js-fetch-api@^4.7.1":
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-4.7.1.tgz#5f5ecf55d7738061138b2351af2e4a5106973f85"
   integrity sha512-LFpi8ZbV/N51nhIDc7ig6HnBUZ0Y/Av0GVCVDOs9zmUK1/zgTA33fkWMCNVxc4wgrugwRXCJA7Mj8Zb8BTea2w==
@@ -1335,10 +1335,32 @@
     "@giphy/js-util" "^4.3.0"
     qs "^6.9.4"
 
+"@giphy/js-fetch-api@^4.9.1":
+  version "4.9.3"
+  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-4.9.3.tgz#98072e739fb27bf00cbb9f28f38ecefaa8a2a615"
+  integrity sha512-SV+7ttNrU9pGRp7otVRSAKTQxT8fHNObYAeJ5gCVk3pr9LhP1b2Az8KIXn2IlpxdIHOnuFNKP919oO5MvESDkA==
+  dependencies:
+    "@giphy/js-types" "*"
+    "@giphy/js-util" "*"
+    qs "^6.9.4"
+
+"@giphy/js-types@*":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-5.1.0.tgz#af7c7d3b8190bf89e25da0e693935871b2c53b0b"
+  integrity sha512-BZYCDtYNRR7cUWkbDLB4wmm3qmWMsVCQdUiBNOfmZ3yAazCgygKJoDI/5Rq4CK5MBaOc5LVdF8viC2WtoBdaPA==
+
 "@giphy/js-types@^4.4.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-4.4.0.tgz#4f491a408293e52d77aa4d6b38d20f6b2828723a"
   integrity sha512-W9G6crS2oqTn7g0RpvYu1l/sna4LnivRTk25jmxdzujOFb9kvQ+VFM/v9RPYV2GIBnzT/maW/EwjFIba9jkflA==
+
+"@giphy/js-util@*":
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-5.2.0.tgz#864b8495daa1e5cef773bf6bb80488558c4e04fe"
+  integrity sha512-Qt7pGh2cqiNmXLeWAgb459wK8+BuMLtIxTfg4ZksnPHPsLthiHT9hhzs2QhqUh7Pp/HOq+Cbv2etGDfnq+xiKA==
+  dependencies:
+    "@giphy/js-types" "*"
+    uuid "^9.0.0"
 
 "@giphy/js-util@^4.3.0":
   version "4.3.0"
@@ -10716,6 +10738,11 @@ uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
