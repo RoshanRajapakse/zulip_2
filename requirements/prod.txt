@@ -368,7 +368,7 @@ distro==1.8.0 \
     --hash=sha256:02e111d1dc6a50abb8eed6bf31c3e48ed8b0830d1ea2a1b78c61765c2513fdd8 \
     --hash=sha256:99522ca3e365cac527b44bde033f64c6945d90eb9f769703caaec52b09bbd3ff
     # via zulip
-django[argon2]==4.1.6 \
+django==4.2.27 \
     --hash=sha256:bceb0fe1a386781af0788cae4108622756cd05e7775448deec04a71ddf87685d \
     --hash=sha256:c6fe7ebe7c017fe59f1029821dae0acb5a2ddcd6c9a0138fd20a8bfefac914bc
     # via
@@ -1556,7 +1556,7 @@ sqlalchemy==1.4.46 \
     --hash=sha256:e3c1808008124850115a3f7e793a975cfa5c8a26ceeeb9ff9cbb4485cac556df \
     --hash=sha256:f8cb80fe8d14307e4124f6fad64dfd87ab749c9d275f82b8b4ec84c84ecebdbe
     # via -r requirements/common.in
-sqlparse==0.4.3 \
+sqlparse==0.5.4 \
     --hash=sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34 \
     --hash=sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268
     # via django
@@ -1621,7 +1621,7 @@ uhashring==2.2 \
     --hash=sha256:5c6ec0a3e72827d1cc195ca1537994c298f8442f7325507a24f06c2a3561e36c \
     --hash=sha256:e2a0338b5d2b43c7859233280e1b3bb988566a37ec013c12a01fa317429c459d
     # via python-binary-memcached
-urllib3==1.26.14 \
+urllib3==2.6.0 \
     --hash=sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72 \
     --hash=sha256:75edcdc2f7d85b137124a6c3c9fc3933cdeaa12ecb9a6a959f22797a0feca7e1
     # via
