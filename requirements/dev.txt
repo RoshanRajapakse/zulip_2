@@ -621,7 +621,7 @@ fakeldap==0.6.4 \
     --hash=sha256:4e5e19aee88af41b2c5fd0bc4089374aa9d66d64e4a27b305a21f0b0f089841d \
     --hash=sha256:ac5ff6431998c080b7d94a5190dd6e1ba8e48bbcf19e9360669855950886e12b
     # via -r requirements/dev.in
-filelock==3.9.0 \
+filelock==3.20.3 \
     --hash=sha256:7b319f24340b51f55a2bf7a12ac0755a9b03e718311dac567a0f4f7fabd2f5de \
     --hash=sha256:f58d535af89bb9ad5cd4df046f741f8553a418c01a7856bf0d173bbc9f6bd16d
     # via tldextract
@@ -2547,7 +2547,7 @@ ujson==5.7.0 \
     --hash=sha256:f7f241488879d91a136b299e0c4ce091996c684a53775e63bb442d1a8e9ae22a \
     --hash=sha256:ff0004c3f5a9a6574689a553d1b7819d1a496b4f005a7451f339dc2d9f4cf98c
     # via python-lsp-jsonrpc
-urllib3==1.26.14 \
+urllib3==2.6.3 \
     --hash=sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72 \
     --hash=sha256:75edcdc2f7d85b137124a6c3c9fc3933cdeaa12ecb9a6a959f22797a0feca7e1
     # via
@@ -2586,7 +2586,7 @@ webencodings==0.5.1 \
     #   cssselect2
     #   html5lib
     #   tinycss2
-werkzeug==2.2.2 \
+werkzeug==3.1.5 \
     --hash=sha256:7ea2d48322cc7c0f8b3a215ed73eabd7b5d75d0b50e31ab006286ccff9e00b8f \
     --hash=sha256:f979ab81f58d7318e064e99c4506445d60135ac5cd2e177a2de0089bfd4c9bd5
     # via
